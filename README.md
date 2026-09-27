@@ -1,6 +1,8 @@
 # triangular-arbitrage-scanner
 
-A multi-exchange triangular arbitrage paper-trading scanner for crypto markets. Connects to live WebSocket order book data across multiple exchanges (Binance, Kraken), auto-generates valid three-leg trading triangles per exchange based on real market metadata, and simulates fee- and depth-adjusted profitability with a latency-survival check. Detection and logging only — no live order placement.
+- Currently in iterative testing — completed five full test phases to date,
+  continuously refining accuracy and performance in a simulated environment
+  ahead of live deployment
 
 ## How it works
 - Connects via WebSocket (not polling) to each exchange's public order book feed
