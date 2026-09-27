@@ -1,8 +1,6 @@
 # triangular-arbitrage-scanner
 
-- Currently in iterative testing — completed five full test phases to date,
-  continuously refining accuracy and performance in a simulated environment
-  ahead of live deployment
+A Python tool that connects to multiple exchange APIs via WebSocket to pull and analyze real-time market data.
 
 ## How it works
 - Connects via WebSocket (not polling) to each exchange's public order book feed
