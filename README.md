@@ -1,4 +1,4 @@
-# triangular-arbitrage-scanner
+# Market-Data-Scanner
 
 A Python tool that connects to multiple exchange APIs via WebSocket to pull and analyze real-time market data.
 
